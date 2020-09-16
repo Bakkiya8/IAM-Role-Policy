@@ -8,6 +8,6 @@ resource "aws_instance" "web" {
   iam_instance_profile = "${aws_iam_instance_profile.ec2_profile.name}"
 
   tags = {
-    Name = "HelloWorld"
+    Name = "Terraform"
   }
 }
